@@ -22,4 +22,4 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.sonar_token_linux }}
-          SONAR_HOST_URL: http://192.168.12.130:9000
+          SONAR_HOST_URL: https://margareta-baccivorous-metonymically.ngrok-free.dev
